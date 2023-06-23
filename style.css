@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  margin: none;
+}
+
+body {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  gap: 5px;
+}
+
+#input0,
+#input1 {
+  background: none;
+  border: none;
+  outline: none;
+  width: 360px;
+  height: 150px;
+}
+
+#degree {
+  width: 360px;
+}
